@@ -1,0 +1,5 @@
+salario = float(input("Quanto ganhas por hora?:R$ "))
+
+horas = float(input("Quantas horas trabalhou?: "))
+
+print("Neste mês você trabalhou {:.2f} horas e ganhou R${:.2f}".format(horas, horas*salario))
